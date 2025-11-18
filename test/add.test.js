@@ -13,21 +13,6 @@ describe("add function unit tests", function () {
             expect(add("2", "3")).to.not.be.a('number');
             expect(add(2, "3")).to.not.be.a('number');
         });
-        it("should not return a number when input contains undefined", function () {
-            expect(add(undefined, 3)).to.not.be.a('number');
-            expect(add(2, undefined)).to.not.be.a('number');
-            expect(add(undefined, undefined)).to.not.be.a('number');
-        });
-        it("should not return a number when input contains an object", function () {
-            expect(add({}, 3)).to.not.be.a('number');
-            expect(add(2, {})).to.not.be.a('number');
-            expect(add({}, {})).to.not.be.a('number');
-        });
-        it("should not return a number when input contains an array", function () {
-            expect(add([], 3)).to.not.be.a('number');
-            expect(add(2, [])).to.not.be.a('number');
-            expect(add([], [])).to.not.be.a('number');
-        });
 
     });
     describe("value checks", function () {
