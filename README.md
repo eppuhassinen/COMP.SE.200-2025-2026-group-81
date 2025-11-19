@@ -1,9 +1,11 @@
 # COMP.SE.200-2025-2026-group-81
-Tampere university 2025-2025 software testing project work.
+Tampere university 2025-2026 software testing project work.
 
-# Student template
+The repository implements unit tests for 10 given functions. The software has no real functionality.
 
-## Purpose of this repository
+[![Coverage Status](https://coveralls.io/repos/github/eppuhassinen/COMP.SE.200-2025-2026-group-81/badge.svg?branch=main)](https://coveralls.io/github/eppuhassinen/COMP.SE.200-2025-2026-group-81?branch=main)
+
+## Template starting point
 
 This is a project template for students participating in Software Testing course
 at Tampere University.
